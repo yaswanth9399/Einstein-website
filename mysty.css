@@ -37,10 +37,19 @@
   float: right;
   
 }
+@media only screen and (max-width: 500px) {
+  .main {
+    width: fit-content;
+    height:fit-content;
+    float: right;
+    
+  }
+  .menulist{
+    width: max-content;
+  }
+}
 .content{
   width:100%;
-
-
 }
 body{
   background-color: #333;
