@@ -29,7 +29,7 @@
   width: 20%;
   height:91.5%;
   float: left;
-  background-color: #1d212440;;
+  background-color: #333;
 }
 .main {
   width: 80%;
@@ -38,6 +38,7 @@
   
 }
 @media only screen and (max-width: 500px) {
+  
   .main {
     width: fit-content;
     height:fit-content;
@@ -49,6 +50,17 @@
   }
   .marquee {
    width: 412px;
+  }
+  .mobile{
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    background-color: #333;
+    width: 412px;
+    display: grid;
+  }
+  .mainlist a:hover {
+    background-color: #111;
   }
   .item1{
     width: 412px;
