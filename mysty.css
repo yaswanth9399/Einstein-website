@@ -47,7 +47,29 @@
   .menulist{
     width: max-content;
   }
+  .marquee {
+   width: 412px;
+  }
+  .item1{
+    width: 412px;
+    grid-column: 1;
+    grid-row: 1 ;
+  }
+  .item2{
+    width: 412px;
+    grid-column: 1;
+  grid-row: 2 ;
+  }
+  .item3{
+    width: 412px;
+    grid-column: 1;
+  grid-row: 3 ;
+  }
+  .grid-item{
+    display: block;
+  }
 }
+
 .content{
   width:100%;
 }
