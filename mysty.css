@@ -207,3 +207,38 @@ div.desc {
   0%   { left: 100%; }
   100% { left: -100%; }
 }
+.fa-facebook {
+  background:#1d2124;
+  color: white;
+}
+.fa-twitter {
+  background: #1d2124;
+  color: white;
+}
+
+.fa-google {
+  background: #1d2124;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #1d2124;
+  color: white;
+}
+
+.fa-youtube {
+  background: #1d2124;
+  color: white;
+}
+.fa-instagram {
+  background: #1d2124;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
