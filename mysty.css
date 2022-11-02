@@ -1,6 +1,11 @@
 .mainlist {
   float:right;
 }
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
 .mainmenu{
   list-style-type: none;
   margin: 5px;
@@ -37,6 +42,9 @@
   float: right;
   
 }
+.hamburger{
+  display: none;
+}
 @media only screen and (max-width: 500px) {
   
   .main {
@@ -44,6 +52,15 @@
     height:fit-content;
     float: right;
     
+  }
+  .hamburger{
+    display: inline-block;
+  }
+  .mainlist{
+    display: block;
+  }
+  .topnav{
+    display: block;
   }
   .menulist{
     width: max-content;
